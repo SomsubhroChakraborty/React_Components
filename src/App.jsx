@@ -7,9 +7,15 @@ function App() {
   return (
     <>
       <Navbar />
-<main>
-  <h1>Card</h1>
-</main>
+<div className="cards">
+  <Card title ="card 1" description = "card 2 desc"/>
+  <Card/>
+  <Card/>
+  <Card/>
+  <Card/>
+  <Card/>
+
+</div>
       <Footer />
     </>
   );
